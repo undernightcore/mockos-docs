@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Simple yet complete way to mock JSON, XML, HTML and more!',
+    Svg: require('@site/static/img/undraw_toy_car_-7-umw.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          Allow to edit responses with a simple and idiot proof editor. You also can upload files of up to 8MB (configurable)
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Truly reactive and collaborative functionality, no messy files involved',
+    Svg: require('@site/static/img/undraw_pizza_sharing_wxop.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          There is not a need to share and maintain ugly config files anymore, stay agile even when it comes to mocking APIs
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Open Source + Self hosteable = ❤️',
+    Svg: require('@site/static/img/undraw_powerful_re_frhr.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        No magic under the hood, only features made by the community and freedom. You got to decide what comes next!
       </>
     ),
   },

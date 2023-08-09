@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mockos Docs',
-  tagline: 'All you need to know about "sacarse los mockos"',
+  title: 'Mockos.io Docs',
+  tagline: 'Documentation for Mockos - mocking APIs with friends',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -84,14 +84,14 @@ const config = {
           },
           {
             href: 'https://mockos.io',
-            label: 'Dashboard',
+            label: 'Start using it!',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `Mockos documentation - ${new Date().getFullYear()}`,
+        copyright: `Made with ❤️ by @undernightcore`,
       },
       prism: {
         theme: lightCodeTheme,
