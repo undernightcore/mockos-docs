@@ -67,3 +67,7 @@ This is **fixed by simply sorting**, in this case `/pokemons/attacks` should be 
 - `GET /pokemons/1` -> 1st endpoint ✅
 - `GET /pokemons/837` -> 1st endpoint ✅
 - `GET /pokemons/attacks` -> 2nd endpoint ✅
+
+## Configure responses
+
+When you create an endpoint **you won't have any responses at first**, you still have to **configure a response for the endpoint to start working**.
