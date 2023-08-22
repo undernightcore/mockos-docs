@@ -1,41 +1,62 @@
-# Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+![Banner](static/img/mockos-banner.png)
 
-### Installation
 
-```
-$ yarn
-```
+## Mockos Documentation
 
-### Local Development
+This is the **documentation, guides and blog for Mockos**.
 
-```
-$ yarn start
-```
+Mockos is a **useful and practical tool for developers** looking to test their applications with **custom API mocks**, in a **collaborative way and without the need to install anything** on their computer.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Deployments
 
-### Build
+- **Documentation** - https://docs.mockos.io
+- **Application** - https://mockos.io
 
-```
-$ yarn build
-```
+If you find any bugs/vulnerabilities feel free to open a new issue or/and contact me at undernightcore@gmail.com.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Features
 
-### Deployment
+- Create API responses using a **simple JSON editor**.
+- Stay in sync with other people thanks to **realtime and compare capabilities**.
+- Create **multiple projects** and invite **multiple members** to help you mock API responses.
+- Simplified **branch system** in case you introduce **breaking changes**.
 
-Using SSH:
+## Run for development (only docs)
 
-```
-$ USE_SSH=true yarn deploy
+Clone the project
+
+```bash
+  git clone https://github.com/undernightcore/mockos-docs.git
 ```
 
-Not using SSH:
+Install dependencies
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+  npm install
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Start the docs
+
+```bash
+  npm run start
+```
+
+## Roadmap
+
+- Check what I'm working on here -> https://github.com/users/undernightcore/projects/1
+
+
+## FAQ
+
+#### What tech stack is this using?
+
+Docusaurus.
+
+#### How can I contribute?
+
+Thank you! Please fork the project and submit a PR to the master branch, once approved it will automatically deploy.
+
+## Support
+
+For support, email undernightcore@gmail.com or my twitter @undernightcore. I will happily solve any issue that you may encounter, but first check if there is an already open one. 
