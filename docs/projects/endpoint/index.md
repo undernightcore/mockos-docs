@@ -2,35 +2,35 @@
 sidebar_position: 1
 ---
 
-# Endpoints / routes
+# Endpoints / Routes
 
-A project consists of **multiple endpoints**, you can think of a **project as an API**, such as the _Pokemon API_.
+A project is composed of **multiple endpoints**; envision a **project as an API**, akin to the _Pokemon API_.
 
 ## Create an endpoint
 
-Creating an endpoint can be done with **this easy steps**:
+Creating an endpoint is a breeze with these straightforward steps:
 
-- Press the **plus button in the toolbar**.
-- A popup will open asking you for a **name**, an **http method** and **your endpoint's url**.
+- **Click the plus button in the toolbar**.
+- A popup will appear prompting you for a **name**, an **HTTP method**, and **your endpoint's URL**.
 
 ![Screenshot](endpoint.png)
 
-### How does an endpoint work
+### How an endpoint works
 
-An endpoint is just **the path you will be accessing your endpoint**, for example: _/pokemons_. There are **some cases** you will need to **make use of dynamic URLs** to create an endpoint.
-A **dynamic URL** would be the case when **you don't know yet the full URL the client will be using**.
+An endpoint essentially represents **the path used to access it**, for instance: _/pokemons_. In some situations, you may need to **employ dynamic URLs** to create an endpoint.
+A **dynamic URL** arises when **you aren't certain about the client's complete URL**.
 
-For example for **getting an specific Pokemon** they could be using 
+For instance, to **retrieve a specific Pokemon**, they might utilize:
 - `GET /pokemons/11`
 - `GET /pokemons/28`
 - `GET /pokemons/98`
 
-In this case the **Pokemon ID is dynamic**, any **dynamic values can be represented using brackets** `{}`. **What is inside** the brackets **doesn't really matter**, is just for documentation purposes.
+Here, the **Pokemon ID is dynamic**, and any **dynamic values can be enclosed within brackets** `{}`. The content **within the brackets is arbitrary** and serves purely for documentation.
 
-So the endpoint would be...
+Hence, the endpoint would be...
 `/pokemons/{pokemonId}`
 
-You can use as **many dynamic URLs as you want**, another example could be...
+You can employ **as many dynamic URLs as needed**. Another instance could be:
 - `GET /pokemons/11/attacks/30`
 - `GET /pokemons/28/attacks/90`
 - `GET /pokemons/98/attacks/10`
@@ -40,29 +40,29 @@ This endpoint would be...
 
 ## Sorting endpoints
 
-You can **sort endpoints easily by dragging them** in the list (not available in mobile devices).
+Effortlessly **sort your endpoints by dragging them** within the list (unavailable on mobile devices).
 
 ![Screenshot](sorting.gif)
 
-### Why sorting endpoints
+### Why sort endpoints?
 
-Sorting your endpoint in the **right order is very important**, this might **not be obvious in small projects**. When you send a request to a project it looks for the **first endpoint that matches the URL of the request**.
+Arranging your endpoints in the **correct order is crucial**, even if it may not be apparent in small projects. When you dispatch a request to a project, it looks for the **first endpoint that matches the request's URL**.
 
-For example, let's say we have **2 endpoints in the following order**:
+For example, assume we have **2 endpoints in the following order**:
 
-1. Get an specific pokemon `/pokemons/{pokemonId}`
-2. Get all attacks of all pokemons `/pokemons/attacks`
+1. Get a specific Pokemon `/pokemons/{pokemonId}`
+2. Get all attacks of all Pokemon `/pokemons/attacks`
 
-It is **IMPOSSIBLE** to reach the second endpoint, the 'attacks' part of the path **would be confused with a Pokemon ID**.
+It is **IMPOSSIBLE** to access the second endpoint; the 'attacks' portion of the path **could be misconstrued as a Pokemon ID**.
 
 - `GET /pokemons/1` -> 1st endpoint ✅
 - `GET /pokemons/837` -> 1st endpoint ✅
 - `GET /pokemons/attacks` -> 1st endpoint ❌ (should be 2nd)
 
-This is **fixed by simply sorting**, in this case `/pokemons/attacks` should be the first one.
+This is effortlessly **remedied by sorting**, in this case, `/pokemons/attacks` should be the foremost one.
 
-1. Get all attacks of all pokemons `/pokemons/attacks`
-2. Get an specific pokemon `/pokemons/{pokemonId}`
+1. Get all attacks of all Pokemon `/pokemons/attacks`
+2. Get a specific Pokemon `/pokemons/{pokemonId}`
 
 - `GET /pokemons/1` -> 1st endpoint ✅
 - `GET /pokemons/837` -> 1st endpoint ✅
@@ -70,4 +70,4 @@ This is **fixed by simply sorting**, in this case `/pokemons/attacks` should be 
 
 ## Configure responses
 
-When you create an endpoint **you won't have any responses at first**, you still have to **configure a response for the endpoint to start working**.
+Upon creating an endpoint, you won't have any responses initially; you must still **configure a response for the endpoint to become operational**.
