@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Forking
@@ -14,5 +14,5 @@ A fork is essentially a **new project with all endpoints duplicated** and **you 
 
 ## Merging the changes back
 
-Currently **there is no way to merge the changes back** to the source project other than **manually by copying and pasting**.
+Currently **there is no way to merge the changes back** to the source project other than **manually copying and pasting**.
 I am still **studying what the best approach could be**. If you have **any ideas please DM me or submit a issue**!
