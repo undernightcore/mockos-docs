@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Members
 
 **Multiple people working in a single project** is a common scenario.

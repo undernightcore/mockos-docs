@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Forking
 
 When working on a project, it's crucial to recognize that **introducing new changes**—whether due to contractual obligations or other reasons—**has the potential to disrupt existing clients relying on those mocks**. In such situations, it's often prudent to ensure that these changes do not take effect until all clients have had a chance to adapt to the new API structure or alterations.
