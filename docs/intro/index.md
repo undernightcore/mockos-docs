@@ -4,30 +4,32 @@ sidebar_position: 1
 
 # Introduction to Mockos
 
-Mockos is a **useful and practical tool for developers** looking to test their applications with **custom API mocks**, in a **collaborative way and without the need to install anything** on their computer.
+Mockos is an **indispensable tool for developers** seeking to streamline their application testing with **custom API mocks**. What sets Mockos apart is its ability to facilitate collaborative mock testing without any cumbersome installations required on your computer.
 
 ![Screenshot](./screenshot.png)
 
 
-## Features
+## Key Features
 
-- Create API responses using a **simple JSON/HTML editor**.
-- Stay in sync with other people thanks to **realtime and compare capabilities**.
-- Create **multiple projects and invite multiple members** to help you mock API responses.
-- **Simplified branch system** in case you introduce breaking changes.
+- Craft API responses effortlessly through a **user-friendly JSON/HTML editor**.
+- Seamlessly collaborate with others with **real-time synchronization and comparison capabilities**.
+- Create **multiple projects** and invite **multiple members** to aid in API response mocking.
+- Benefit from a **streamlined branch system** for managing breaking changes.
 
-## How to get started
+## Getting started
 
-You have **two options** for using Mockos:
+Getting started with Mockos is a breeze, and you have **two options** to choose from:
 
-- Follow our [Mockos.io guide](/docs/getting-started/mockos) and **start building your APIs right away**!
-- **Host it in your infrastructure** using our [Self-Hosting guide](/docs/getting-started/self-hosting).
+- Follow our comprehensive [Mockos.io guide](/docs/getting-started/mockos) to **kickstart your API mocking journey**.
+- Opt for **self-hosting** and set it up within your infrastructure by following our [Self-Hosting guide](/docs/getting-started/self-hosting).
 
 ## FAQ
 
-### What tech stack is this using?
-- **For the Frontend**: Angular, Angular Material, JSON editor, Socket.io, Luxon, Swal and Ngrx Translate.
-- **For the Backend**: AdonisJS, Socket.io and PostgreSQL.
+### Tech stack
 
-### How can I contribute?
-First of all, **you are the best**! I'm **working in a contributing guide** that you can easily follow.
+- **Frontend**: Angular, Angular Material, JSON editor, Socket.io, Luxon, Swal, and Ngrx Translate.
+- **Backend**: AdonisJS, Socket.io, and PostgreSQL.
+
+### Contributions welcome!
+
+We appreciate your interest in contributing to Mockos! We are currently **in the process of creating a detailed contributing guide** that you can effortlessly follow. Your contributions are highly valued and greatly appreciated.

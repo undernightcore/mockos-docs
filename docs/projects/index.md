@@ -4,34 +4,32 @@ sidebar_position: 2
 
 # Your first project
 
-The **main dashboard shows all the projects you are part of**. If this is your first time **you probably won't have any to start with**, so there are **two ways** you can start mocking:
+The **main dashboard is your central hub**, displaying all the projects you're involved in. If this is your first time, it's likely you won't have any projects yet. Don't worry, we have two simple ways to kickstart your journey:
 
-- Create your [own project](#create-your-own-project).
-- Get invited to an [already existing one](#get-invited-to-a-project).
+- **Create Your Own Project**: [Jump to instructions](#creating-your-own-project).
+- **Join an Existing Project**: [Learn how](#getting-invited-to-a-project).
 
 ![Screenshot](./dashboard.png)
 
-## Create your own project
+## Creating your own project
 
-Creating a project is **insanely easy**, you just follow this steps:
+Creating a project here is a breeze. Just follow these steps:
 
-- **Press the plus button** inside the **"Your projects" banner**.
-- A popup will open asking you for a **name and an optional description**.
+- **Click the plus button** located within the **"Your Projects" section**.
+- A popup will appear, prompting you to provide a **name and an optional description**.
 
 ![Screenshot](./create-project.png)
 
-## Get invited to a project
+## Getting invited to a project
 
-You might already **have a friend or colleague that uses Mockos** and has asked for your help. You just have to **tell your friend to** [invite you](/docs/getting-started/self-hosting).
+Perhaps you already know someone using Mockos who needs your assistance. In this case, just ask them to extend an invitation to you. Here's how you can accept it:
 
-### How to accept an invitation
-
-- Press on the **user button** inside the **"Your projects" banner**.
-- In this page will appear **all the projects you've been invited to**.
-- **Press on the project card** and **confirm the request**.
+- Click on the **user icon** within the **"Your Projects" section**.
+- On this page, you'll find a list of **all the projects you've been invited to**.
+- **Select the desired project card** and **confirm your request**.
 
 ![Screenshot](./get-invited.png)
 
-## Next steps
+## What's next?
 
-Go ahead and **create your first routes/endpoints**...
+Now that you're part of a project, it's time to get started! Begin by **creating your first routes and endpoints**...
