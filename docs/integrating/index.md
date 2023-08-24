@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Connecting to your mocks
 
 **The ability to send requests to your project is a crucial step after creating your endpoints and responses in Mockos.** To achieve this, you need to follow a few steps to allow your client to connect to your Mockos project.

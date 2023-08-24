@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Your first project
@@ -9,7 +9,7 @@ The **main dashboard is your central hub**, displaying all the projects you're i
 - **Create Your Own Project**: [Jump to instructions](#creating-your-own-project).
 - **Join an Existing Project**: [Learn how](#getting-invited-to-a-project).
 
-![Screenshot](./dashboard.png)
+![Screenshot](dashboard.png)
 
 ## Creating your own project
 
@@ -18,7 +18,7 @@ Creating a project here is a breeze. Just follow these steps:
 - **Click the plus button** located within the **"Your Projects" section**.
 - A popup will appear, prompting you to provide a **name and an optional description**.
 
-![Screenshot](./create-project.png)
+![Screenshot](create-project.png)
 
 ## Getting invited to a project
 
@@ -28,7 +28,7 @@ Perhaps you already know someone using Mockos who needs your assistance. In this
 - On this page, you'll find a list of **all the projects you've been invited to**.
 - **Select the desired project card** and **confirm your request**.
 
-![Screenshot](./get-invited.png)
+![Screenshot](get-invited.png)
 
 ## What's next?
 
