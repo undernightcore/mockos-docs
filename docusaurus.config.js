@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mockos.io Docs',
-  tagline: 'Documentation for Mockos - mocking APIs with friends',
+  title: 'Mockos.io',
+  tagline: 'Documentation for Mockos - Create API mocks collaboratively, fully online and with custom code logic.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,10 +64,11 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'mockos.',
+        title: '',
         logo: {
           alt: 'Mockos logo',
-          src: 'img/logo.svg',
+          src: 'img/logo-dark.webp',
+          srcDark: 'img/logo.webp'
         },
         items: [
           {
@@ -76,7 +77,6 @@ const config = {
             position: 'left',
             label: 'Getting started',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/undernightcore/mockos-docs',
             label: 'GitHub',

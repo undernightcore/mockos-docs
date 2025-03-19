@@ -21,6 +21,7 @@ An endpoint essentially represents **the path used to access it**, for instance:
 A **dynamic URL** arises when **you aren't certain about the client's complete URL**.
 
 For instance, to **retrieve a specific Pokemon**, they might utilize:
+
 - `GET /pokemons/11`
 - `GET /pokemons/28`
 - `GET /pokemons/98`
@@ -31,6 +32,7 @@ Hence, the endpoint would be...
 `/pokemons/{pokemonId}`
 
 You can employ **as many dynamic URLs as needed**. Another instance could be:
+
 - `GET /pokemons/11/attacks/30`
 - `GET /pokemons/28/attacks/90`
 - `GET /pokemons/98/attacks/10`
@@ -42,7 +44,7 @@ This endpoint would be...
 
 Effortlessly **sort your endpoints by dragging them** within the list (unavailable on mobile devices).
 
-![Screenshot](sorting.gif)
+![Screenshot](sorting.png)
 
 ### Why sort endpoints?
 

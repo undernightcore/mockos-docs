@@ -1,5 +1,5 @@
-import React from 'react';
 import clsx from 'clsx';
+import React from 'react';
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -15,6 +15,15 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
           Allow to edit responses with a simple and idiot proof editor. You also can upload files of up to 8MB (configurable)
+      </>
+    ),
+  },
+  {
+    title: 'Dynamic mocks and custom code',
+    Svg: require('@site/static/img/undraw_in-the-zone_07y7.svg').default,
+    description: (
+      <>
+        Create fully dynamic responses with our JS sandbox, like a real API!
       </>
     ),
   },
@@ -40,7 +49,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

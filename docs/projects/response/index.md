@@ -27,9 +27,10 @@ Creating a response is a straightforward process:
 
 A response card offers **quick actions** that can be executed **without opening its modal**.
 
-- **Swap enabled response**: This action will **enable the selected response and disable the current one** (only available for disabled responses).
+- **Activate**: This action will **enable the selected response and disable the current one** (only available for disabled responses).
 - **Duplicate response**: Create an exact copy with the **same body, status code, and headers**.
 - **Open the [headers modal](#custom-headers-in-a-response)**: Modify headers specifically for that response.
+- **Live Mock**: Open custom code editor and create fully dynamic responses JS.
 - **Delete response**: Keep in mind that this action is irreversible.
 
 #### Enabled Response
